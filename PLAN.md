@@ -2,7 +2,7 @@
 
 ## État initial
 
-Analyse documentaire terminée sur AMI-Display `676572601d362af6f5e8e322788daf0afe132425`. Aucun firmware développé, aucun essai matériel réalisé. Analyse détaillée et sources dans [README.md](README.md).
+Analyse documentaire terminée sur AMI-Display `676572601d362af6f5e8e322788daf0afe132425`. Aucun firmware développé, aucun essai matériel réalisé. Analyse détaillée et sources dans [docs/ami-display-analysis.md](docs/ami-display-analysis.md).
 
 Réutilisable après extraction : décodage `0x580`, `0x581`, `0x713`, connexion Wi-Fi/MQTT, principes RTC/NTP et expiration des signaux. À reprendre avec validation : charge heuristique, intégration d'énergie, autonomie estimée, températures. À développer : passivité garantie, journal de mesures robuste, transfert différé, acquittements/déduplication, supervision, protection 12 V et gestion énergétique. Les logs `.trc` et `state.json` existants ne constituent pas une file MQTT.
 
